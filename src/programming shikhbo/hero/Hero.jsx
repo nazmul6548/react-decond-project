@@ -1,11 +1,13 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = (props) => {
+    console.log(props);
   return (
     <div>
         <h1>
-            Hero section
+           products name : {props.product.name}
         </h1>
+        <p>price : {props.product.name}</p>
     </div>
   )
 }
