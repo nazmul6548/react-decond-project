@@ -1,5 +1,20 @@
-.explore{
+/* .explore{
     display: flex;
     justify-content: center;
     align-items: center;
+} */
+
+.navcontainer {
+  color: brown;
+  background-color: blanchedalmond;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  
+}
+.navcontainer a {
+  list-style: none;
+  color: #000;
+  text-decoration: none;
 }
